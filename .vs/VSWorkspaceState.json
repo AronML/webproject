@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TutorialAspNetIdentity-master",
+    "\\TutorialAspNetIdentity-master\\TutorialAspNetIdentity.Web",
+    "\\TutorialAspNetIdentity-master\\TutorialAspNetIdentity.Web\\Views"
   ],
+  "SelectedNode": "\\TutorialAspNetIdentity-master\\TutorialAspNetIdentity.Web\\packages.config",
   "PreviewInSolutionExplorer": false
 }
