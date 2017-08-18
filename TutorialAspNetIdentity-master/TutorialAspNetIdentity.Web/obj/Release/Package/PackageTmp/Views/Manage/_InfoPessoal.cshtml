@@ -1,0 +1,28 @@
+﻿<p>
+    @if (Model.HasPassword)
+    {
+        @Html.ActionLink("Trocar de Senha", "ChangePassword")
+    }
+    else
+    {
+        @Html.ActionLink("Definir senha para conta local", "SetPassword")
+    }
+</p>
+<p>
+    Número do Telefone: @(Model.PhoneNumber ?? "Nenhum") [
+    @if (Model.PhoneNumber != null)
+    {
+        @Html.ActionLink("Trocar", "AddPhoneNumber")
+        @: &nbsp;|&nbsp;
+        @Html.ActionLink("Remover", "RemovePhoneNumber")
+    }
+    else
+    {
+        @Html.ActionLink("Adicionar", "AddPhoneNumber")
+    }
+    ]
+</p>
+<!--<p>
+    Logins Sociais: @Model.Logins.Count
+    @Html.ActionLink("[ Gerenciar ]", "ManageLogins")
+</p>-->

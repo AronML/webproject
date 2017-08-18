@@ -1,0 +1,105 @@
+﻿@{
+    foreach (TutorialAspNetIdentity.Security.Models.Air air in (ViewData["info3"] as List<TutorialAspNetIdentity.Security.Models.Air>))
+    {
+        <div class="col-md-6">
+            <div class="panel panel-primary ">
+                @{  string ontxt = "";
+                    if (air.Onn == true)
+                    {
+                           ontxt = "ligado";
+                    }
+                   else
+                   {
+                        ontxt = "desligado";
+                   }
+                }
+                <div class="panel-heading">@air.Name [@ontxt]</div>
+                <div class="panel-body">
+                    <div style="text-align:center;"><a class="btn btn-danger" href="~/Air/OnOff/@air.Id"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></div>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="alert alert-info col-md-4 text-center" role="alert"><h1>@air.Temp°C</h1></div>
+                        <div class="col-md-4"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            @{
+                                string perc = "0%" ;
+                                if(air.Temp == 15)
+                                {
+                                    perc = "0%";
+                                }else if(air.Temp == 16)
+                                {
+                                    perc = "10%";
+                                }
+                                else if (air.Temp == 17)
+                                {
+                                    perc = "20%";
+                                }
+                                else if (air.Temp == 18)
+                                {
+                                    perc = "30%";
+                                }
+                                else if (air.Temp == 19)
+                                {
+                                    perc = "40%";
+                                }
+                                else if (air.Temp == 20)
+                                {
+                                    perc = "50%";
+                                }
+                                else if (air.Temp == 21)
+                                {
+                                    perc = "60%";
+                                }
+                                else if (air.Temp == 22)
+                                {
+                                    perc = "70%";
+                                }
+                                else if (air.Temp == 23)
+                                {
+                                    perc = "80%";
+                                }
+                                else if (air.Temp == 24)
+                                {
+                                    perc = "90%";
+                                }
+                                else if (air.Temp == 25)
+                                {
+                                    perc = "100%";
+                                }
+                                    
+                                
+                            
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: @perc;">
+                                    <span class="sr-only"></span>
+                                </div>
+                                
+                            </div>
+                             }
+                            @if(air.Temp < 25)
+                            {
+                                <a class="btn btn-primary pull-right" href="~/Air/TempPlusChange/@air.Id"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                            }
+                            @if(air.Temp > 15)
+                            { 
+                                <a class="btn btn-primary" href="~/Air/TempMinusChange/@air.Id"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span></a>
+                            }
+                         </div>
+
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    }
+}
+
+

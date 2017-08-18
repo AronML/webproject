@@ -1,0 +1,27 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+
+
+@{
+    
+    foreach (TutorialAspNetIdentity.Security.Models.Obj obj in (ViewData["info2"] as List<TutorialAspNetIdentity.Security.Models.Obj>))
+    {
+        if(obj.Place.ToString() == ViewData["infoPlace"].ToString())
+        { 
+        if(obj.deleted == false)
+        { 
+            if(obj.StatusObj == true)
+            {
+                <a class="btn btn-success" href="~/Obj/StatusChange/@obj.Id">@obj.NameActivated</a>
+            }
+            else if(obj.StatusObj == false)
+            {
+                <a class="btn btn-danger" href="~/Obj/StatusChange/@obj.Id">@obj.NameDesativated</a>
+            }
+
+            <a class="btn btn-danger" href="~/Obj/DeleteObj/@obj.Id"><span class="glyphicon glyphicon-remove " title="Remover Objeto" aria-hidden="true"></span></a><a class="btn btn-default" href="~/Obj/UpdateObj/@obj.Id"><span class="glyphicon glyphicon-pencil" title="Alterar Objeto" aria-hidden="true"></span></a>
+        }
+        }
+    }
+
+ }

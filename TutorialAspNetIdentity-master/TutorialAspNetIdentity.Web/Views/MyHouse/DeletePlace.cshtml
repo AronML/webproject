@@ -1,0 +1,22 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+@model TutorialAspNetIdentity.Web.Models.Identity.DeletePlaceViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    
+}
+<h2 class="text-center">Tem certeza que quer deletar este Local?</h2>
+@using (Html.BeginForm("DeletePlace", "MyHouse", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="text-center">
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-10">
+                <input type="submit" class="btn btn-success" value="Sim" />     <a class="btn btn-default" href="~/MyHouse/Index">Cancelar</a>
+            </div>
+        </div>
+    </div>
+}

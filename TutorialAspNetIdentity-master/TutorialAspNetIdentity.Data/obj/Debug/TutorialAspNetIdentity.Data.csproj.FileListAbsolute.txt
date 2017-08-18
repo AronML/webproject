@@ -1,0 +1,21 @@
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.csprojResolveAssemblyReference.cache
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Data.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.csprojResolveAssemblyReference.cache
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Data\obj\Debug\TutorialAspNetIdentity.Data.pdb

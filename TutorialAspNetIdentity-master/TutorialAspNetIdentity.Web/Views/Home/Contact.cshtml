@@ -1,0 +1,66 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+@model TutorialAspNetIdentity.Web.Models.Identity.ContactViewModels
+@{
+    ViewBag.Title = "DOHQA";
+
+}
+<h2 class="text-center">Contato</h2>
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    
+    
+    <div class="row">
+        <div class="row col-md-12">
+            <form>
+                <h3 class="text-center">Envie-nos uma Mensagem</h3>
+                <br />
+                <div class="col-md-4"></div>
+               
+                 <div class="col-md-6">
+                   
+                      @Html.ValidationSummary("", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Cidade, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Cidade, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Estado, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Estado, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Mensagem, new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextAreaFor(m => m.Mensagem, new { @class = "form-control" })
+                        </div>
+                    </div>
+                     <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+               
+                 <div class="col-md-2"></div>
+
+               
+            </form>
+        </div>
+        <br />
+        <address class="text-center col-md-12">
+            <h3>Ligue ou envie um e-mail</h3>
+            <br />
+            <strong>Aron Lima <abbr title="Phone">P:</abbr> (18) 99650-1864</strong> <br>
+            <strong>Support:</strong>   <a href="mailto:aronmpa@gmail.com">aronmpa@gmail.com</a><br />
+            <strong>Marketing:</strong> <a href="mailto:dohqad@gmail.com">dohqad@gmail.com</a>
+
+        </address>
+
+    </div>
+}

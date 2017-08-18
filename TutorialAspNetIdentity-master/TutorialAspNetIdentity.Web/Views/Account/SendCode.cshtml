@@ -1,0 +1,32 @@
+﻿@model  TutorialAspNetIdentity.Web.Models.Identity.SendCodeViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-8">
+        <h2>Enviar código de verificação</h2>
+        @using (Html.BeginForm("SendCode", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-md-8">
+                    Provedor de Two Factor Authentication:
+                    @Html.DropDownListFor(model => model.SelectedProvider, Model.Providers)
+                    @Html.HiddenFor(m => m.UserId)
+                    <br />
+                    <br />
+                    <input type="submit" value="Enviar" class="btn btn-primary" />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

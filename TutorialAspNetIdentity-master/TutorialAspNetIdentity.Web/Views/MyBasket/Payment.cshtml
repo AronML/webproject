@@ -1,0 +1,38 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+@model TutorialAspNetIdentity.Web.Models.Identity.AddressBasketViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="container col-md-8">
+        <div class="row">
+            <div class="col-md-4" style="text-indent:30px;"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:40px;"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:50px;"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                <span class="sr-only"></span>
+            </div>
+        </div>
+        <h2>Pagamento</h2>
+       
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-offset-2 col-md-4">
+                        <a class="btn btn-primary" href="~/Results/Success" value="Finalizar">Finalizar</a> <a class="btn btn-default" href="~/MyBasket/Index">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+

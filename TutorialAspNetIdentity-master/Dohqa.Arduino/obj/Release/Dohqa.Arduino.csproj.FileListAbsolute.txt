@@ -1,0 +1,5 @@
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\Dohqa.Arduino\bin\Release\Dohqa.Arduino.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\Dohqa.Arduino\bin\Release\Dohqa.Arduino.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\Dohqa.Arduino\obj\Release\Dohqa.Arduino.csprojResolveAssemblyReference.cache
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\Dohqa.Arduino\obj\Release\Dohqa.Arduino.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\Dohqa.Arduino\obj\Release\Dohqa.Arduino.pdb

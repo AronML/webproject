@@ -1,0 +1,154 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+   .carousel-caption{
+            text-align:left;
+            margin-left:80px;
+            margin-right:70px;
+        }
+        .white{
+            color:white;
+        }
+        .img-nav{
+            margin-left:100px;
+            
+            width:170px;
+            height:50px;
+            margin-top:0px;
+        }
+        .img-150-150{
+            width:150px;
+            height:150px;
+        }
+        .img-30-30{
+            margin-top:0px;
+            width:20px;
+            height:20px;
+        }
+        .img-100-100{
+            width:100px;
+            height:100px;
+        }
+        .img-main{
+            height:500px;
+            width:1400px;
+            
+        }
+        .navbar-default {
+			background-color: #4682B4;
+			border-color: #4682B4;
+		}
+		.navbar-default .navbar-brand {
+			color: #ffffff;
+		}
+		.navbar-default .navbar-brand:hover,
+		.navbar-default .navbar-brand:focus {
+			color: #ffffff;
+		}
+		.navbar-default .navbar-text {
+			color: #ffffff;
+		}
+		.navbar-default .navbar-nav > li > a {
+			color: #ffffff;
+		}
+		.navbar-default .navbar-nav > li > a:hover,
+		.navbar-default .navbar-nav > li > a:focus {
+			color: #ffffff;
+		}
+					.navbar-default .navbar-nav > .active > a,
+		.navbar-default .navbar-nav > .active > a:hover,
+		.navbar-default .navbar-nav > .active > a:focus {
+			color: #ffffff;
+			background-color: #04648E;
+		}
+		.navbar-default .navbar-nav > .open > a,
+		.navbar-default .navbar-nav > .open > a:hover,
+		.navbar-default .navbar-nav > .open > a:focus {
+			color: #ffffff;
+			background-color: #04648E;
+		}
+		.navbar-default .navbar-toggle {
+			border-color: #04648E;
+		}
+		.navbar-default .navbar-toggle:hover,
+		.navbar-default .navbar-toggle:focus {
+			background-color: #04648E;
+		}
+		.navbar-default .navbar-toggle .icon-bar {
+			background-color: #ffffff;
+		}
+		.navbar-default .navbar-collapse,
+		.navbar-default .navbar-form {
+			border-color: #ffffff;
+		}
+		.navbar-default .navbar-link {
+			color: #ffffff;
+		}
+		.navbar-default .navbar-link:hover {
+			color: #ffffff;
+		}
+		@media (max-width: 767px) {
+			.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+			color: #ffffff;
+			}
+			.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+			.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+			color: #ffffff;
+			}
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+			.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+			color: #ffffff;
+			background-color: #191970;
+			}
+		}
+         .jumbotron {
+            width: 700px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            background-color:white;
+        }
+
+        .table {
+            margin-top: 20px;
+        }
+
+        .selecionado {
+            background-color: yellow;
+        }
+        .img-home{
+            height:550px;
+            width:1200px; 
+            margin-left:0px;
+        }
+        .font15{
+            font-size:15px;
+        }
+        .cadastro{
+            margin-left:150px;
+
+        }
+        .btn-success{
+            
+            
+        }
+        .navbar-right{
+            margin-top:0px;
+        }
+        

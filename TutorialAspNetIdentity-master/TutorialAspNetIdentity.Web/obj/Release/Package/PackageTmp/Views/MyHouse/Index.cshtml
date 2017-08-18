@@ -1,0 +1,107 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+
+@{
+    ViewBag.Title = "DOHQA";
+    
+}
+<div ng-controller="contaCtrl>
+
+<div class=" panel-group col-md-9" id="accordion" role="tablist" aria-multiselectable="true">
+    <h3 style="text-align:center;">Painel do Usuário</h3>
+    <div class="alert alert-warning" role="alert">
+        <a href="#" class="alert-link"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>Houve um problema com gás, durante um periodo de tempo, verifique!</a>
+    </div>
+    
+    
+        @{
+            foreach (TutorialAspNetIdentity.Security.Models.Place place in (ViewData["info"] as List<TutorialAspNetIdentity.Security.Models.Place>))
+            {
+                if (place.Deleted == false)
+                {
+                    <div class="row">
+                        <div class="col-md-2">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-th pull-right" aria-hidden="true"></span>Botões</a></li>
+                                <li role="presentation"><a href="#"><span class="glyphicon glyphicon-facetime-video pull-right" aria-hidden="true"></span>Cameras</a></li>
+                                <li role="presentation"><a href="~/Air/Index/@place.Id"><span class="glyphicon glyphicon-leaf pull-right" aria-hidden="true"></span>Ar-Condicionado</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="panel panel-primary ">
+                                <div class="panel-heading" role="tab" id="heading">
+                                    @place.Name
+
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    @{
+                                    ViewData["infoPlace"] = place.Id;
+                                    }
+                                    @Html.Partial("_Obj")
+
+                                    <br />
+                                    <br />
+
+                                    <a href="~/Obj/InsertObj/@place.Id" class="btn btn-primary pull-left" title="Adcionar Objeto"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                                    <a class="btn btn-danger pull-right" href="~/MyHouse/DeletePlace/@place.Id"><span class="glyphicon glyphicon-remove " title="Remover Lugar" aria-hidden="true"></span></a><a class="btn btn-default pull-right" href="~/MyHouse/UpdatePlace/@place.Id"><span class="glyphicon glyphicon-pencil" title="Alterar Lugar" aria-hidden="true"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                }
+            }
+        }
+    <script>
+        window.onload = function () {
+            if (!window.location.hash) {
+                   setTimeout(function () {
+                    window.location.reload();
+                },
+                5000);
+            }
+        }
+    </script>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading col-md-12" role="tab" id="heading">
+                    Sensor Gás
+
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        @ViewData["arduino"]
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading" role="tab" id="heading">
+                    Sensor Presença
+
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        -
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+
+
+
+            <div class="col-md-2"></div>
+            <a class="btn btn-primary" href="~/MyHouse/AddPlace">Add local</a>
+
+
+
+        </div>

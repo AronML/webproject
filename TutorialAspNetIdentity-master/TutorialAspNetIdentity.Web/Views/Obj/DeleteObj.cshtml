@@ -1,0 +1,21 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+@model TutorialAspNetIdentity.Web.Models.Identity.DeleteObjViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("DeleteObj", "Obj", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="text-center">
+        <h2>Tem certeza que quer deletar este Item?</h2>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-10">
+                <input type="submit" class="btn btn-success" value="Sim" />     <a class="btn btn-default" href="~/MyHouse/Index">Cancelar</a>
+            </div>
+        </div>
+    </div>
+}

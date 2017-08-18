@@ -1,0 +1,85 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+@model TutorialAspNetIdentity.Web.Models.Identity.AddressBasketViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="container col-md-8">
+        <div class="row">
+            <div class="col-md-4" style="text-indent:30px;"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:40px;"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:50px;"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 66%">
+                <span class="sr-only"></span>
+            </div>
+        </div>
+        <h2>Endereço</h2>
+        @using (Html.BeginForm("Address", "MyBasket", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+
+            <hr />
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="form-group">
+                <p class="col-md-2 control-label"> Destinatário</p>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    (Ex: Bruce Wayne)
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                <p class="col-md-2 control-label"> Endereço</p>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Endereco, new { @class = "form-control" })
+                    (ExRua do Afeneiros, 4)
+                </div>
+
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Cep, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Cep, new { @class = "form-control" })
+                    (Ex:10.000-000)
+                </div>
+
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Cidade, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Cidade, new { @class = "form-control" })
+                    (Ex: Londrina)
+                </div>
+
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Estado, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Estado, new { @class = "form-control" })
+                    (Ex: Paraná)
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-offset-2 col-md-4">
+                        <input type="submit" class="btn btn-primary" value="Avançar" /> <a class="btn btn-default" href="~/MyBasket/Index">Voltar</a>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }
+
+

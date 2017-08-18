@@ -1,0 +1,15 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+
+@{
+    TutorialAspNetIdentity.Security.Models.UserInfo userInfo = ViewData["infoUser"] as TutorialAspNetIdentity.Security.Models.UserInfo;
+}
+<br />
+<p><b>Nome:</b> @userInfo.Name</p>
+<p><b>CPF:</b> @userInfo.Cpf</p>
+<p><b>Endereço:</b> @userInfo.Endereco</p>   
+<p><b>Cidade:</b> @userInfo.Cidade</p>  
+<p><b>Estado:</b> @userInfo.Estado</p>
+<p><b>CEP:</b> @userInfo.Cep</p>  
+<p><b>Data Nascimento:</b> @userInfo.Nascimento</p> 
+<p><b>Profissão:</b> @userInfo.Profissao</p> 

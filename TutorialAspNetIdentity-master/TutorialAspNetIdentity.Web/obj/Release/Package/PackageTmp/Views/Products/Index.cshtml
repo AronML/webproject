@@ -1,0 +1,64 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+
+@{
+    ViewBag.Title = "DOHQA";
+}
+<h2 class="text-center">Produtos</h2>
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="alert alert-success col-md-6" role="alert">
+        <p style="text-align: center;">Em breve novos produtos poderão ser contratados!</p>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+@{
+    foreach (TutorialAspNetIdentity.Security.Models.Products product in (ViewData["infoProduct"] as List<TutorialAspNetIdentity.Security.Models.Products>))
+    {
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="thumbnail col col-md-10">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="~/img/@product.id..jpg" alt="..." style="width:320px; height:180px;">
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>@product.name</h3>
+                        <p>@product.info</p>
+                        <p><div class ="pull-right">R$ @product.value,00</div></p>
+                        <br />
+
+                        <p>
+                        @if (Request.IsAuthenticated)
+                        {
+                            if (User.IsInRole("Admin"))
+                            {
+                                <a class="btn btn-default" href="~/Products/Update/@product.id">Atualizar</a>
+                                <a class="btn btn-default" href="~/Products/Delete/@product.id">Deletar</a>
+                            }
+
+
+                        }
+                          <a href="~/MyBasket/AddBasket/@product.id" class="btn btn-success pull-right" role="button">Contratar</a></p>
+                        <br />
+                    </div>
+                    <div class="col-md-offset-0"></div>
+                </div>
+
+            </div>
+        </div>
+    <br />
+    }
+}
+
+@if (Request.IsAuthenticated)
+{
+    if (User.IsInRole("Admin"))
+    {
+        <a class="btn btn-primary" href="~/Products/Insert">Inserir Produto</a>
+    }
+
+
+}
+

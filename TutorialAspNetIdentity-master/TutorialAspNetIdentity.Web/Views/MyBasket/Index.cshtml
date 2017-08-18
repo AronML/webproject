@@ -1,0 +1,74 @@
+﻿@using TutorialAspNetIdentity.Web.Models
+@using TutorialAspNetIdentity.Web.Models.Identity
+
+@{
+    ViewBag.Title = "DOHQA";
+}
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="alert alert-success col-md-10" role="alert">Adicione novos produtos a seu carrinho</div>
+    <div class="col-md-2"></div>
+        
+        <div class="container col-md-8">
+            <div class="row">
+                <div class="col-md-4" style="text-indent:30px;"><span class=" glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:40px;"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div> <div class="col-md-4" style="text-indent:50px;"><span class="glyphicon glyphicon-usd" aria-hidden="true"></span></div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 33%">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+
+            @foreach (TutorialAspNetIdentity.Security.Models.MyBasket basket in (ViewData["MyBasket"] as List<TutorialAspNetIdentity.Security.Models.MyBasket>))
+            {
+                foreach (TutorialAspNetIdentity.Security.Models.Products product in (ViewData["infoProduct"] as List<TutorialAspNetIdentity.Security.Models.Products>))
+                {
+
+                    if (product.id == basket.product)
+                    {
+                        <div class="panel panel-primary">
+                            <div class="panel-heading col-md-12">
+                                <div class="col-md-4">Escritório</div><div class="col-md-4" style="text-indent:30px;">Quantidade</div><div class="col-md-3" style="text-indent:60px;"><p>Preço</p></div><div class="col-md-1"><a title="Remover do Carrinho" href="~/MyBasket/DeleteBasket/@basket.id"><span class="badge"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span></a></div>
+                                <br />
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-4">
+
+                                    <img class="media-object" src="~/img/2..jpg" alt="..." style="width:160px; height:90;">
+
+                                </div>
+                                <br />
+                                <br />
+                                <div class="input-group col-md-3">
+                                    <a href="~/MyBasket/quantMinusChange/@basket.id" class="input-group-addon"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="@basket.quantidade">
+                                    <a href="~/MyBasket/quantPlusChange/@basket.id" class="input-group-addon"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col col-md-3">
+
+                                    R$  @(product.value * basket.quantidade) ,00
+                                </div>
+
+
+                                <div class="col-md-8 media-body">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-offset-2 col-md-4">
+                    <a class="btn btn-primary" href="~/MyBasket/Address">Avançar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+    </div>

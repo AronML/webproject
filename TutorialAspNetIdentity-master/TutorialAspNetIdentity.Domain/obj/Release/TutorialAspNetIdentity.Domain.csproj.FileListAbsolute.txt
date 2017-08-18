@@ -1,0 +1,5 @@
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Domain\bin\Release\TutorialAspNetIdentity.Domain.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Domain\bin\Release\TutorialAspNetIdentity.Domain.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Domain\obj\Release\TutorialAspNetIdentity.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Domain\obj\Release\TutorialAspNetIdentity.Domain.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.Domain\obj\Release\TutorialAspNetIdentity.Domain.pdb

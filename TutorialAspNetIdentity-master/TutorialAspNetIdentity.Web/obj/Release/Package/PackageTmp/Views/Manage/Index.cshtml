@@ -1,0 +1,33 @@
+﻿@model TutorialAspNetIdentity.Web.Models.Identity.IndexViewModel
+@{
+    ViewBag.Title = "DOHQA";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row"></div>
+<div class="col-md-4"></div>
+<div class="col-md-8">
+
+    <p class="text-success">@ViewBag.StatusMessage</p>
+    <div class="row">
+
+        <div class="col-md-8">
+
+            <h2>Informações Pessoais</h2>
+            @Html.Partial("_ManageUserInfo")
+            <br />
+            @Html.Partial("_InfoPessoal")
+
+            <h2>Informações Técnicas</h2>
+            @Html.Partial("_InfoTech")
+
+
+
+
+
+
+        </div>
+    </div>
+    <br />
+    <br />
+</div>

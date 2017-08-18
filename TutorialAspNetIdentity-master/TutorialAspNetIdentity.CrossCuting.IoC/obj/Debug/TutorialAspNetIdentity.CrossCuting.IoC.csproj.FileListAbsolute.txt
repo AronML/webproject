@@ -1,0 +1,51 @@
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.xml
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+C:\Users\Cleber\Documents\Visual Studio 2013\TutorialAspNetIdentity\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.xml
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.csprojResolveAssemblyReference.cache
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+D:\Desktop\DONCTROM\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\CommonServiceLocator.NinjectAdapter.Unofficial.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.App.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Data.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\TutorialAspNetIdentity.Domain.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\bin\Debug\Ninject.xml
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.dll
+C:\Users\Aron Martins\Documents\backup\dohqa\Nova pasta\TutorialAspNetIdentity-master\TutorialAspNetIdentity.CrossCuting.IoC\obj\Debug\TutorialAspNetIdentity.CrossCuting.IoC.pdb
